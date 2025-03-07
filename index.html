@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muskan Narang- Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background: #1c1c3c;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.7);
+            transition: all 0.3s ease-in-out;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #d1d5db;
+        }
+        .section {
+            background: #2b2b52;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+        }
+        .section:hover {
+            transform: scale(1.05);
+            background: #40407a;
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+        }
+        li {
+            padding: 10px 0;
+            border-bottom: 1px solid #6c6cff;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skill {
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
+        .skill:hover {
+            transform: translateY(-5px);
+            background: linear-gradient(135deg, #0072ff, #00c6ff);
+        }
+        .contact {
+            background: #0f2027;
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .contact a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.3rem;
+            transition: color 0.3s ease-in-out;
+        }
+        .contact a:hover {
+            color: #fff;
+        }
+        .projects {
+            background: #2b2b52;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .project-card {
+            background: #40407a;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+        .project-title {
+            font-size: 1.8rem;
+            color: #00c6ff;
+        }
+        .project-description {
+            font-size: 1.1rem;
+            color: #d1d5db;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Muskan Narang</h1>
+            <p>BCA Student</p>
+            <p>Business Development Associate At Internshala</p>
+        </header>
+
+        <section class="section">
+            <h2>About Me</h2>
+            <p>I am a BCA student at Maa Shakumbhari Univrsity with experience as Business Development Associate at Internshala.</p>
+        </section>
+
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill">Web Development</div>
+                <div class="skill">Python</div>
+                <div class="skill">React.js</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">Cybersecurity</div>
+                <div class="skill">Task Management</div>
+                <div class="skill">Communication</div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3 class="project-title">School Matrix</h3>
+                <p class="project-description">A school management software that streamlines academic and non-academic activities for schools at minimal cost.</p>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">Medication Reminder App</h3>
+                <p class="project-description">A React-based web app with AI monitoring features to remind patients to take their medications on time.</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Phone: <a href="tel:+916395664787">6395664787</a></p>
+            <p>Email: <a href="mailto:muskannarang2222@gmail.com">muskannarang2222@gmail.com</a></p>
+        </section>
+    </div>
+</body>
+</html>
